@@ -35,7 +35,7 @@ MAX_METADATA_TEXT_CHARS = 3000
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 pc = Pinecone(api_key=PINECONE_API_KEY)
-
+index = pc.Index(INDEX_NAME
 
 wiki = load_dataset(
     "Salesforce/wikitext",
@@ -223,7 +223,7 @@ if INDEX_NAME not in existing_indexes:
     print(f"Index created {INDEX_NAME}")
 else:
     print("Index already exists.")
-index = pc.Index(INDEX_NAME)
+)
 
 
 def embed_texts(texts):
