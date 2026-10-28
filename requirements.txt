@@ -1,0 +1,7 @@
+datasets
+langchain-text-splitters 
+openai 
+pinecone 
+pandas 
+tqdm
+python-dotenv
